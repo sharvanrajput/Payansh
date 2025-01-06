@@ -3,7 +3,7 @@ import React from 'react'
 const HomeSteps = () => {
     return (
         <>
-            <section className="homesteps pb-5">
+            <section className="homesteps methodology-section pb-5">
                 <div className="container">
                     <div className="row">
                         <div className="col">
@@ -19,7 +19,7 @@ const HomeSteps = () => {
                                 <img src="../public/img/homesteps-left.webp" className='img-fluid image-shake' alt="" />
                             </div>
                         </div> */}
-                        <div className="col-lg-3 col-md-6">
+                        {/* <div className="col-lg-3 col-md-6">
                             <div className="steps_box">
                                 <div className="icon">
                                     <img src="../public/img/edit.png" width={50} alt="" />
@@ -54,6 +54,47 @@ const HomeSteps = () => {
                                 <h4 className='mt-2'>Transfer Money</h4>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, nemo.</p>
                             </div>
+                        </div> */}
+                    </div>
+                    <div className="col">
+                        <div class="our-methodology-section">
+                            <ul class="first-ul">
+                               
+                                <li>
+                                    <div class="our-methodology-wrapper steps_box">
+                                        <h4 class="mb-2">Step 02</h4>
+                                        <h6>Register For Free</h6>
+                                       </div>
+                                </li>
+                                <li>
+                                    <div class="our-methodology-wrapper steps_box">
+                                        <h4 class="mb-2">Step 03</h4>
+                                        <h6>Choose an amount to send</h6>
+                                      </div>
+                                </li>
+                                <li>
+                                    <div class="our-methodology-wrapper steps_box">
+                                        <h4 class="mb-2">Step 04</h4>
+                                        <h6>Add recipient’s bank details</h6>
+                                        </div>
+                                </li>
+                                <li>
+                                    <div class="our-methodology-wrapper steps_box">
+                                        <h4 class="mb-2">Step 05</h4>
+                                        <h6>Verify your identity</h6>
+                                        </div>
+                                </li>
+                                <li>
+                                    <div class="our-methodology-wrapper steps_box">
+                                        <h4 class="mb-2">Step 06</h4>
+                                        <h6>Pay for your transfer</h6>
+                                       </div>
+                                </li>
+                            </ul>
+                            <ul class="second-ul">
+                              
+                              
+                            </ul>
                         </div>
                     </div>
                 </div>

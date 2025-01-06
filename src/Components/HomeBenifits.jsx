@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // Import required modules
-import { Pagination } from 'swiper/modules';
+import { Pagination ,Autoplay  } from 'swiper/modules';
 
 const HomeBenefits = () => {
     return (
@@ -46,11 +46,16 @@ const HomeBenefits = () => {
                                     pagination={{
                                         clickable: true, // Make pagination dots clickable
                                     }}
-                                    modules={[Pagination]} // Include the Pagination module
+                                    modules={[Pagination ,Autoplay ]} // Include the Pagination module
+                                    autoplay={{
+                                        delay: 1000, // 3 seconds delay
+                                        disableOnInteraction: false, // Autoplay continues after user interaction
+                                      }}
+                                      loop={true} 
                                     className="mySwiper homebenefits_slider"
                                 >
                                     <SwiperSlide>
-                                        <div className="col-lg-12 col-md-6">
+                                        <div className="col-lg-12 ">
                                             <div className="benefit_box text-white text-center">
                                                 <p>
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda eligendi quisquam deleniti.
@@ -60,7 +65,7 @@ const HomeBenefits = () => {
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <div className="col-lg-12 col-md-6">
+                                        <div className="col-lg-12 ">
                                             <div className="benefit_box text-white text-center">
                                                 <p>
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda eligendi quisquam deleniti.
@@ -71,7 +76,7 @@ const HomeBenefits = () => {
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <div className="col-lg-12 col-md-6">
+                                        <div className="col-lg-12 ">
                                             <div className="benefit_box text-white text-center">
                                                 <p>
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda eligendi quisquam deleniti.
@@ -81,7 +86,7 @@ const HomeBenefits = () => {
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <div className="col-lg-12 col-md-6">
+                                        <div className="col-lg-12 ">
                                             <div className="benefit_box text-white text-center">
                                                 <p>
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda eligendi quisquam deleniti.
@@ -91,7 +96,7 @@ const HomeBenefits = () => {
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <div className="col-lg-12 col-md-6">
+                                        <div className="col-lg-12 ">
                                             <div className="benefit_box text-white text-center">
                                                 <p>
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda eligendi quisquam deleniti.
