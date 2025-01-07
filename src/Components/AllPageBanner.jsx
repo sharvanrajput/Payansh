@@ -1,10 +1,21 @@
 import React from 'react'
 
-const AllPageBanner = () => {
+const AllPageBanner = (props) => {
   return (
-    <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt provident quas maxime perspiciatis nemo, numquam culpa similique consectetur, quis cupiditate tenetur veritatis deserunt eveniet ducimus. Enim esse ipsum, ratione iure cupiditate nostrum sint minus ab, similique nisi itaque, quam porro quas. Voluptatum eos atque pariatur voluptatem vero explicabo, quibusdam animi, dolor eius officiis, recusandae aliquid possimus ea. Vel, deserunt sint. Quam tempora molestias, doloremque perferendis veniam quo ipsa nulla hic recusandae quidem officiis! Inventore rem eaque architecto ad! Nam molestias ea ipsam iste dolorem! Laudantium nihil cumque beatae. Ipsa ea, earum dolore qui dolores vero voluptas maiores unde voluptatem, doloremque at sequi molestiae voluptatibus autem quod eveniet voluptate. Aliquid, nemo eos, est illum magni iure fugiat quam dolore, iusto corporis ab rem quos ad praesentium soluta officiis hic velit quidem placeat magnam modi veritatis blanditiis sapiente. Corporis quos fugit consequuntur numquam, reprehenderit aspernatur in omnis doloremque placeat nobis error sapiente excepturi dicta? Aut placeat maxime mollitia tempora temporibus perspiciatis assumenda nobis, quidem delectus dolorum hic iste doloremque quae nostrum molestias laudantium ipsa dolores rerum in! Quas optio mollitia labore est enim voluptate iusto, libero dicta quae tempore debitis officia, facilis provident rerum ea officiis magni tempora dolor voluptatem. Modi molestias labore veniam ipsam quidem dicta, quaerat expedita illo voluptatibus excepturi dolor ducimus iusto ullam voluptatem accusantium animi tenetur deserunt, quod dolores. Consequatur vitae a qui repellat accusamus corrupti aspernatur ullam incidunt. Laborum recusandae culpa aperiam cumque ut assumenda a, dignissimos unde numquam similique delectus quam nostrum sapiente accusantium minus magnam quo iure facilis commodi veniam sed reiciendis illum nihil doloremque. Aliquam quasi dolores quam, quis placeat qui laborum sit architecto necessitatibus, aut suscipit fugit molestias pariatur dicta, illum id. Pariatur sequi iusto dolorem, aliquam consequatur eius ut quis aliquid voluptas. Asperiores ab optio saepe! Quam voluptatibus obcaecati laudantium excepturi, neque sequi eligendi distinctio quidem beatae quod? Quos est sint odit soluta quia totam nisi eius aperiam consequuntur exercitationem voluptates modi distinctio blanditiis id dolor placeat ut, possimus tenetur repellendus libero quaerat ratione dolores excepturi eveniet. Iusto accusantium dolor esse ullam in, sint perspiciatis. Nihil distinctio voluptatem unde minima natus impedit amet atque ducimus eveniet libero nulla modi corporis fugit animi et, veritatis porro quibusdam ratione fugiat eaque explicabo at aliquid saepe sapiente. Ad maxime exercitationem quasi dolor, ipsum sit doloremque, quam velit ducimus nemo iste harum modi ipsam inventore ullam nisi. Tempore quod suscipit animi corrupti iusto, harum eos nobis fugit, hic, voluptatum saepe eius. Fuga atque debitis ea. In itaque corporis autem aspernatur illum inventore blanditiis, qui nobis quasi nihil suscipit ea accusantium, modi saepe iure exercitationem doloremque harum atque fugiat dolorum reiciendis dolore rerum facilis veritatis. Laborum quam quidem tempora facere, velit quos in ipsum excepturi quis recusandae a magnam tenetur atque inventore pariatur commodi molestias debitis veritatis autem, nobis mollitia modi at suscipit ullam. Provident dolores eius possimus assumenda libero consequuntur esse. Sequi eos exercitationem perspiciatis maiores excepturi, autem earum rem adipisci quam odio explicabo ratione eaque? Ex illo numquam ullam dolorum magni voluptatum beatae harum voluptatem. 
-    </div>
+    <>
+      <section className="Allpagebanner">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-md-6">
+              <div className="banner_left text-white text-center">
+                <h1 className="banner-heading heading-graident">{props.heading}</h1>
+                <p>{props.para}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   )
 }
 

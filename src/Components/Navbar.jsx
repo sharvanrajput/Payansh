@@ -13,11 +13,31 @@ const Navbar = () => {
                     </div>
                     <div className="pages ms-auto d-lg-block d-none">
                         <ul className='list-inline d-flex'>
-                            <li className='nav-items'><Link to="/">Home</Link></li>
-                            <li className='nav-items'><Link to="/about">About Us</Link></li>
-                            <li className='nav-items'><Link to="/expertise">Expertise</Link></li>
-                            <li className='nav-items'><Link to="/blog">Blog</Link></li>
-                            <li className='nav-items'><Link to="/contact">Contact Us</Link></li>
+                            <Link className='nav-items text-decoration-none ' to="/">
+                                <li className='nav-items'>
+                                    Home
+                                </li>
+                            </Link>
+                            <Link className='nav-items text-decoration-none ' to="/about">
+                                <li className='nav-items'>
+                                    About Us
+                                </li>
+                            </Link>
+                            <Link className='nav-items text-decoration-none ' to="/expertise">
+                                <li className='nav-items'>
+                                    Expertise
+                                </li>
+                            </Link>
+                            <Link className='nav-items text-decoration-none ' to="/blog">
+                                <li className='nav-items'>
+                                    Blog
+                                </li>
+                            </Link>
+                            <Link className='nav-items text-decoration-none ' to="/contact">
+                                <li className='nav-items'>
+                                    Contact Us
+                                </li>
+                            </Link>
                         </ul>
                     </div>
                     <div className="mobile_btn d-lg-none d-block">
@@ -38,12 +58,32 @@ const Navbar = () => {
                     <div className="offcanvas-body">
                         <div className="mobile_nav">
                             <div className="pages ms-auto">
-                                <ul className='list-inline d-flex flex-column'>
-                                    <li className='nav-items'><Link to="/">Home</Link></li>
-                                    <li className='nav-items'><Link to="/about">About</Link></li>
-                                    <li className='nav-items'><Link to="/expertise">Expertise</Link></li>
-                                    <li className='nav-items'><Link to="/blog">Blog</Link></li>
-                                    <li className='nav-items'><Link to="/contact">Contact</Link></li>
+                                <ul className='list-inline '>
+                                    <Link className='nav-items text-decoration-none ' to="/">
+                                        <li className='nav-items'>
+                                            Home
+                                        </li>
+                                    </Link>
+                                    <Link className='nav-items text-decoration-none ' to="/about">
+                                        <li className='nav-items'>
+                                            About Us
+                                        </li>
+                                    </Link>
+                                    <Link className='nav-items text-decoration-none ' to="/expertise">
+                                        <li className='nav-items'>
+                                            Expertise
+                                        </li>
+                                    </Link>
+                                    <Link className='nav-items text-decoration-none ' to="/blog">
+                                        <li className='nav-items'>
+                                            Blog
+                                        </li>
+                                    </Link>
+                                    <Link className='nav-items text-decoration-none ' to="/contact">
+                                        <li className='nav-items'>
+                                            Contact Us
+                                        </li>
+                                    </Link>
                                 </ul>
                             </div>
                         </div>

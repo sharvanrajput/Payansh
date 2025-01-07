@@ -456,7 +456,10 @@ nav {
   background: radial-gradient(203.25% 206.6% at 53.86% 100.69%, #136165 .82%, var(--primary-color) 30.73%, var(--primary-color), #03152100);
 
 }
-
+.Allpagebanner{
+  padding: 150px 100px 0px;
+  background: radial-gradient(44.37% 82.6% at 12.76% 13.42%, #136165 .82%, #0b3b48 30.02%, #031521);
+}
 footer {
   padding: 100px 0px 0px;
 }

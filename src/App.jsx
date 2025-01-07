@@ -8,9 +8,9 @@ import Home from "./Page/Home"
 const App = () => {
   return (
     <>
-   
+
       <BrowserRouter>
-      <Navbar />
+        <Navbar />
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,8 +23,8 @@ const App = () => {
 
 
 
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </>
   )
 }
