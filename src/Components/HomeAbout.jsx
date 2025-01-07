@@ -1,6 +1,10 @@
 import React from 'react'
 import Button from './Button'
 
+import aboutleft from '../../public/img/about-left.webp'
+import adduser from '../../public/img/add-user.png'
+
+
 const HomeAbout = () => {
     return (
         <>
@@ -10,7 +14,7 @@ const HomeAbout = () => {
                         <div className="col-lg-6">
                             <div className="home-about-left">
                                 <div className="home-about-right banner-bg text-center">
-                                    <img src="../public/img/about-left.webp" className='img-fluid  image-shake' alt="" />
+                                    <img src={aboutleft} className='img-fluid  image-shake' alt="" />
                                 </div>
                             </div>
                         </div>
@@ -23,7 +27,7 @@ const HomeAbout = () => {
                                 <div className="about_setps ">
                                     <div className="step_box mt-4 d-flex align-items-center   flex-lg-row flex-column">
                                         <div className="icon">
-                                            <img src="../public/img/add-user.png" className='' width={30} alt="" />
+                                            <img src={adduser} className='' width={30} alt="" />
                                         </div>
                                         <div className="disc text-lg-start text-center ms-3">
                                             <h4>Create Account</h4>
@@ -32,7 +36,7 @@ const HomeAbout = () => {
                                     </div>
                                     <div className="step_box mt-4 d-flex align-items-center   flex-lg-row flex-column">
                                         <div className="icon">
-                                            <img src="../public/img/add-user.png" className='' width={30} alt="" />
+                                            <img src={adduser} className='' width={30} alt="" />
                                         </div>
                                         <div className="disc text-lg-start text-center ms-3">
                                             <h4>Create Account</h4>
@@ -41,7 +45,7 @@ const HomeAbout = () => {
                                     </div>
                                     <div className="step_box mt-4 d-flex align-items-center   flex-lg-row flex-column">
                                         <div className="icon">
-                                            <img src="../public/img/add-user.png" className='' width={30} alt="" />
+                                            <img src={adduser} className='' width={30} alt="" />
                                         </div>
                                         <div className="disc text-lg-start text-center ms-3">
                                             <h4>Create Account</h4>

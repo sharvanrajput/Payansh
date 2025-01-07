@@ -1,4 +1,7 @@
 import React, { useRef, useState } from 'react';
+import user1 from "../../public/img/user1.webp"
+import review_cots from "../../public/img/review_cots.svg"
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -32,9 +35,6 @@ const Hometextmonial = () => {
 
                     </div>
                     <div className="row  position-relative">
-
-
-
                         <div className="swiper-container"  >
                             {/* Custom Previous Button */}
                             <button
@@ -63,10 +63,10 @@ const Hometextmonial = () => {
 
                                         <div className="review_box text-white text-center " style={{ maxWidth: 1000, margin: "auto" }}>
                                             <div className="userimg overflow-hidden rounded-circle mx-auto  mb-3">
-                                                <img src="../public/img/user1.webp" className='img-fluid' alt="" />
+                                                <img src={user1} className='img-fluid' alt="" />
                                             </div>
                                             <div className="riview_cots ">
-                                                <img src="../public/img/review_cots.svg" className='img-fluid' alt="" />
+                                                <img src={review_cots} className='img-fluid' alt="" />
                                             </div>
                                             <div className="user_disc mb-3 px-5">
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, sunt? Aspernatur explicabo accusamus at non suscipit recusandae, facere iusto dolor illo eaque sunt est rem dolorum commodi, odit sapiente excepturi! .</p>
@@ -87,10 +87,10 @@ const Hometextmonial = () => {
 
                                         <div className="review_box text-white text-center " style={{ maxWidth: 1000, margin: "auto" }}>
                                             <div className="userimg overflow-hidden rounded-circle mx-auto  mb-3">
-                                                <img src="../public/img/user1.webp" className='img-fluid' alt="" />
+                                                <img src={user1} className='img-fluid' alt="" />
                                             </div>
                                             <div className="riview_cots ">
-                                                <img src="../public/img/review_cots.svg" className='img-fluid' alt="" />
+                                                <img src={review_cots} className='img-fluid' alt="" />
                                             </div>
                                             <div className="user_disc mb-3 px-5">
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, sunt? Aspernatur explicabo accusamus at non suscipit recusandae, facere iusto dolor illo eaque sunt est rem dolorum commodi, odit sapiente excepturi! .</p>
@@ -111,10 +111,10 @@ const Hometextmonial = () => {
 
                                         <div className="review_box text-white text-center " style={{ maxWidth: 1000, margin: "auto" }}>
                                             <div className="userimg overflow-hidden rounded-circle mx-auto  mb-3">
-                                                <img src="../public/img/user1.webp" className='img-fluid' alt="" />
+                                                <img src={user1} className='img-fluid' alt="" />
                                             </div>
                                             <div className="riview_cots ">
-                                                <img src="../public/img/review_cots.svg" className='img-fluid' alt="" />
+                                                <img src={review_cots} className='img-fluid' alt="" />
                                             </div>
                                             <div className="user_disc mb-3 px-5">
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, sunt? Aspernatur explicabo accusamus at non suscipit recusandae, facere iusto dolor illo eaque sunt est rem dolorum commodi, odit sapiente excepturi! .</p>
@@ -130,6 +130,31 @@ const Hometextmonial = () => {
                                         </div>
                                     </div>
                                 </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="col">
+
+                                        <div className="review_box text-white text-center " style={{ maxWidth: 1000, margin: "auto" }}>
+                                            <div className="userimg overflow-hidden rounded-circle mx-auto  mb-3">
+                                                <img src={user1} className='img-fluid' alt="" />
+                                            </div>
+                                            <div className="riview_cots ">
+                                                <img src={review_cots} className='img-fluid' alt="" />
+                                            </div>
+                                            <div className="user_disc mb-3 px-5">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, sunt? Aspernatur explicabo accusamus at non suscipit recusandae, facere iusto dolor illo eaque sunt est rem dolorum commodi, odit sapiente excepturi! .</p>
+                                            </div>
+                                            <div className="user_star text-warning mb-2">
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                            </div>
+
+                                            <user className="name">Sharvan rajput</user>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                
 
 
 

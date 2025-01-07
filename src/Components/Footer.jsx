@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from "../../public/img/logo.png"
 
 const Footer = () => {
     return (
@@ -20,7 +21,7 @@ const Footer = () => {
                 <footer className='text-center'>
                     <div className="container">
                         <div className="logo">
-                            <img src="../public/img/logo.png" width={150} alt="" />
+                            <img src={logo} width={150} alt="" />
                         </div>
                         <div className="link py-2 border-bottom border-light ">
                             <ul className='list-inline text-white d-flex justify-content-center  '>

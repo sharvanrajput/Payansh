@@ -1,4 +1,7 @@
 import React from 'react';
+import bannerImg from "../../public/img/banner-right.webp"
+import homestepsleft from "../../public/img/homesteps-left.webp"
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { SiTicktick } from "react-icons/si";
 
@@ -60,7 +63,7 @@ const HomeBenefits = () => {
                                                 <p>
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda eligendi quisquam deleniti.
                                                 </p>
-                                                <img src="../public/img/banner-right.webp" className='img-fluid ' alt="" />
+                                                <img src={bannerImg} className='img-fluid ' alt="" />
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -70,7 +73,7 @@ const HomeBenefits = () => {
                                                 <p>
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda eligendi quisquam deleniti.
                                                 </p>
-                                                <img src="../public/img/homesteps-left.webp" className='img-fluid ' alt="" />
+                                                <img src={homestepsleft} className='img-fluid ' alt="" />
 
                                             </div>
                                         </div>
@@ -81,7 +84,7 @@ const HomeBenefits = () => {
                                                 <p>
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda eligendi quisquam deleniti.
                                                 </p>
-                                                <img src="../public/img/banner-right.webp" className='img-fluid ' alt="" />
+                                                <img src={bannerImg} className='img-fluid ' alt="" />
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -91,7 +94,7 @@ const HomeBenefits = () => {
                                                 <p>
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda eligendi quisquam deleniti.
                                                 </p>
-                                                <img src="../public/img/homesteps-left.webp" className='img-fluid ' alt="" />
+                                                <img src={homestepsleft} className='img-fluid ' alt="" />
                                             </div>
                                         </div>
                                     </SwiperSlide>
@@ -101,7 +104,7 @@ const HomeBenefits = () => {
                                                 <p>
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda eligendi quisquam deleniti.
                                                 </p>
-                                                <img src="../public/img/banner-right.webp" className='img-fluid ' alt="" />
+                                                <img src={bannerImg} className='img-fluid ' alt="" />
 
                                             </div>
                                         </div>

@@ -1,5 +1,11 @@
 import React from 'react'
 
+import appstorelight from "../../public/img/appstore-light.svg"
+import googleplaylight from "../../public/img/googleplay-light.svg"
+import appsectdion from "../../public/img/appsectdion.png"
+
+
+
 const DownloadAppHome = () => {
     return (
         <>
@@ -14,17 +20,17 @@ const DownloadAppHome = () => {
                                 </p>
                                 <div className="download-list">
                                     <button className=''>
-                                        <img src="../public/img/appstore-light.svg" className='img-fluid bg-dark btn rounded-0 px-3 py-2' width={150} alt="" />
+                                        <img src={googleplaylight} className='img-fluid bg-dark btn rounded-0 px-3 py-2' width={150} alt="" />
                                     </button>
                                     <button className=' ms-2'>
-                                        <img src="../public/img/googleplay-light.svg" className='img-fluid bg-dark btn rounded-0 px-3 py-2' width={150} alt="" />
+                                        <img src={appstorelight} className='img-fluid bg-dark btn rounded-0 px-3 py-2' width={150} alt="" />
                                     </button>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-8 ">
                             <div className="appsection_img">
-                                <img src="../public/img/appsectdion.png" className='img-fluid' alt="" />
+                                <img src={appsectdion} className='img-fluid' alt="" />
                             </div>
                         </div>
                     </div>

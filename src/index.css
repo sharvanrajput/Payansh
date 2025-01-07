@@ -171,10 +171,12 @@ nav {
 .homesteps .steps_box {
   text-align: center;
   color: white;
-  background-color: var(--secandry-color);
+  background-color: #082d40;
   padding: 15px;
   border-radius: 5px;
   height: 100%;
+  z-index: 1;
+  position: relative;
 }
 
 .homesteps .steps_box .icon {
@@ -206,7 +208,7 @@ nav {
   border-top: 1px dashed #CECECE;
   content: '';
   position: absolute;
-  right: -23px;
+  right: -47px;
   top: calc(50% - 2.4px);
 }
 
@@ -488,9 +490,7 @@ footer {
 }
 
 
-@media (max-width:991px) {
-  
-}
+
 @media (max-width:991px) and (min-width:768px) {
   .custom-next {
 
@@ -514,19 +514,26 @@ footer {
     right: -23px;
     top: calc(50% - 2.4px);
   }
+
   .our-methodology-section ul.first-ul li:nth-child(3):after {
     display: inline-block;
     width: calc(60% + 10px);
     height: calc(96% + 6px);
     border-top: 1px dashed white;
     border-left: 1px dashed white;
-    border-bottom: 1px dashed white ;
+    border-bottom: 1px dashed white;
     border-right: none;
     content: '';
     position: absolute;
     left: -23px;
     z-index: 0;
     top: calc(50% - 2.4px);
+  }
+
+  .our-methodology-section ul.first-ul li:last-child .steps_box::after {    
+    content: "";
+    display: none !important;
+    
   }
 
   .custom-prev {
@@ -537,10 +544,42 @@ footer {
 }
 
 @media (max-width:767px) {
+  .our-methodology-section ul li {
+    width: 100%;
+
+  }
+  .our-methodology-section ul.first-ul li:nth-child(3):after{
+    display: none;
+  }
+  .our-methodology-wrapper::after{
+    display: none;
+  }
   .custom-next {
 
     display: none;
 
+  }
+  
+  .our-methodology-section ul.first-ul li:after {
+    display: inline-block;
+    width: calc(10% + 10px);
+    height: calc(66% + 6px);
+    /* border-top: 1px dashed white; */
+    border-left: 1px dashed white;
+    /* border-bottom: 1px dashed white; */
+    border-right: none;
+    content: '';
+    position: absolute;
+    left: 50%;
+    z-index: 0;
+    top: calc(50% - 2.4px);
+  }
+  .our-methodology-section ul.first-ul li:nth-child(4):after ,
+  .our-methodology-section ul.first-ul li:nth-child(5):after {
+  
+    left: 50%;
+    z-index: 0;
+    top: calc(-49% - 2.4px);
   }
 
   .custom-prev {
