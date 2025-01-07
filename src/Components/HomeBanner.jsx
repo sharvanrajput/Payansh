@@ -1,6 +1,6 @@
 import Button from "./Button"
 
-
+import bannerImg from "../../public/img/banner-right.webp"
 const HomeBanner = () => {
     return (
         <>
@@ -17,7 +17,7 @@ const HomeBanner = () => {
                         </div>
                         <div className="col-lg-6 align-self-center">
                             <div className="banner-right banner-bg">
-                                <img src="../public/img/banner-right.webp" className="img-fluid image-shake" alt="" />
+                                <img src={bannerImg} className="img-fluid image-shake" alt="" />
                             </div>
                         </div>
                     </div>
