@@ -1,11 +1,11 @@
 import React from 'react'
-import { AllPageBanner } from '../Components'
+import { AllPageBanner, ContactComponent } from '../Components'
 
 const Contact = () => {
   return (
     <>
       <AllPageBanner heading="Contact us" para="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ullam ipsum distinctio minus voluptatibus cum." />
-      
+      <ContactComponent  />
     </>
   )
 }

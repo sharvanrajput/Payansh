@@ -58,7 +58,7 @@ nav {
   /* background: radial-gradient(44.37% 82.6% at 12.76% 51.42%, #41c6ee8c .82%, #41c6ee36 30.02%, #031521); */
   background: radial-gradient(203.25% 206.6% at 53.86% 50.69%, #0e4f62 .82%, var(--primary-color) 30.73%, var(--primary-color), #03152100);
 
-  
+
 }
 
 .banner-heading {
@@ -105,6 +105,44 @@ nav {
 .Theem-button:hover {
   background-image: linear-gradient(-90deg, #8dd2fe, #b9e2fc);
   color: black;
+}
+.ContactComp{
+  padding: 100px 0px;
+}
+.ContactComp .d-flex {
+  gap: 30px;
+}
+
+.ContactComp .contbox  {
+  padding: 50px;
+  background-color: var(--secandry-color);
+  border-radius: 50px;
+}
+.more_info{
+  background: linear-gradient(161.05deg, #8ed3ff 14.35%, #08f 90.72%);
+  padding: 50px;
+  border-radius: 50px;
+}
+.more_info p{
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+.ContactComp form .d-flex div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ContactComp textarea,
+.ContactComp input {
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid #6C8DA4;
+  background: transparent;
+  color: #a8c1d2;
+  font-size: 14px;
+  width: 100%;
 }
 
 .button_graident {
@@ -250,7 +288,7 @@ nav {
 .benefit_box {
   /* border: 2px solid var(--border-color); */
   padding: 10px;
-  /* border-radius: 5px; */
+  border-radius: 20px;
   height: 100% !important;
   background-color: var(--secandry-color);
 }
@@ -470,7 +508,7 @@ nav {
 }
 
 .two_section_bg {
-  padding-top:100px  ;
+  /* padding-top: 100px; */
   background: radial-gradient(203.25% 206.6% at 53.86% 100.69%, #0e4f62 .82%, var(--primary-color) 30.73%, var(--primary-color), #03152100);
 
 }
@@ -577,9 +615,10 @@ nav {
   padding: 15px;
   border-radius: 10px;
 }
-.Blog_box{
+
+.Blog_box {
   animation: all 1s ease;
-  background-color:var(--secandry-color);
+  background-color: var(--secandry-color);
   padding: 15px;
   border-radius: 20px;
 }
@@ -588,16 +627,18 @@ nav {
   animation: all 1s ease;
   transform: translateY(-10px);
 }
-.Blog_box:hover .b_heading{
+
+.Blog_box:hover .b_heading {
   color: var(--text-color);
 }
 
-.blog_img{
+.blog_img {
   border-radius: 20px;
   overflow: hidden;
   margin-bottom: 10px;
 }
-.date_admin{
+
+.date_admin {
   display: flex;
   justify-content: space-between;
 }
@@ -659,7 +700,19 @@ footer {
     right: -23px;
     top: calc(50% - 2.4px);
   }
-
+  .more_info{
+    padding: 30px;
+  }
+  .ContactComp form .d-flex div  {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .ContactComp .contbox  {
+    padding: 30px;
+   
+  }
   .our-methodology-section ul.first-ul li:nth-child(3):after {
     display: inline-block;
     width: calc(60% + 10px);
@@ -707,7 +760,19 @@ footer {
     display: none;
 
   }
-
+  .more_info{
+    padding: 30px;
+  }
+  .ContactComp form .d-flex div  {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .ContactComp .contbox  {
+    padding: 30px;
+   
+  }
   .our-methodology-section ul.first-ul li:after {
     display: inline-block;
     width: calc(10% + 10px);
