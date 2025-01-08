@@ -181,6 +181,7 @@ nav {
   text-align: center;
   color: white;
   background-color: #082d40;
+  border: 2px solid var(--border-color);
   padding: 15px;
   border-radius: 5px;
   height: 100%;
@@ -525,7 +526,9 @@ nav {
   color: #fff;
 }
 
-
+.experties_about{
+  padding: 100px 0px;
+}
 
 
 footer {
