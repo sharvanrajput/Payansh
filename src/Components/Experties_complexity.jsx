@@ -12,11 +12,11 @@ const Experties_complexity = () => {
                     <div className="row">
                         <div className="col">
                             <div className="mainimg">
-                                <img src={Experties_complesity} alt="" />
+                                <img src={Experties_complesity} className='img-fluid' alt="" />
                             </div>
                         </div>
                     </div>
-                    <div className="row justify-content-center">
+                    <div className="row justify-content-center g-4">
                         <div className="col-10 ">
                             <div className="bottom_two">
                                 <div className="row">
@@ -28,7 +28,7 @@ const Experties_complexity = () => {
                                             <Button text="Try PayPath Now" classname='w-100' />
                                         </div>
                                     </div>
-                                    <div className="col-lg-6 align-self-center ">
+                                    <div className="col-lg-6 align-self-center mt-3 ">
                                         <div className="banner-right text-white banner-bg">
                                             <h2> <span className=' fw-bold heading-graident section-heading'>280+</span>
                                                 <span className='fs-5'>  Integrations</span></h2>

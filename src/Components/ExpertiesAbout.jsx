@@ -12,14 +12,14 @@ const ExpertiesAbout = () => {
                             <div className="banner_left text-white">
                                 <h1 className="section-head heading-graident">Exceptional  Services and Solutions</h1>
                                 <p className='my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fugiat obcaecati quos totam officia laborum soluta, dolores adipisci autem eos delectus sequi, blanditiis suscipit. Libero expedita dignissimos illo odio sequi.</p>
-                                <div className="row">
+                                <div className="row g-4">
                                     <div className="col-md-6">
                                         <div className="steps_box text-start  rounded-4">
                                             <h4 className='my-2'>Register For Free</h4>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
                                         </div>
                                     </div>
-                                    <div className="col-md-6">
+                                    <div className="col-md-6 ">
                                         <div className="steps_box text-start  rounded-4">
                                             <h4 className='my-2'>Register For Free</h4>
                                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>

@@ -543,11 +543,22 @@ nav {
   border-radius: 20px ;
   overflow: hidden;
 }
-
-.corefeature{
-  padding: 100px 0px;
+.core_bg{
+  background-image: url(../public/img/Core_feature_bg.webp);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 800px;
 }
+.coreFeature{
+  padding: 100px 0px;
+ 
 
+}
+.core_feature_box{
+  background-color: #082d40fc ;
+  padding: 15px;
+  border-radius: 10px;
+}
 footer {
   padding: 100px 0px 0px;
 }
