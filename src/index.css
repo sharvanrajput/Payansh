@@ -530,6 +530,23 @@ nav {
   padding: 100px 0px;
 }
 
+.expertiex_complesity .bottom_two{
+  background-color: #082d40;
+  padding: 30px;
+  border-radius: 30px;
+  margin-top: -50px;
+}
+.expertiex_complesity .mainimg{
+  background-color: red;
+  width: fit-content;
+  margin: 0px auto;
+  border-radius: 20px ;
+  overflow: hidden;
+}
+
+.corefeature{
+  padding: 100px 0px;
+}
 
 footer {
   padding: 100px 0px 0px;
