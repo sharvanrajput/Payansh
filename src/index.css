@@ -1,13 +1,17 @@
 :root {
+  /* --primary-color: #031521;
+  --secandry-color: #082d40bd; */
   --primary-color: #031521;
   --secandry-color: #082d40bd;
   --border-color: #2D6A77;
   --text-color: #8ed3ff;
   --graident-color: #125d62;
 }
-body{
+
+body {
   background-color: var(--primary-color);
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -26,11 +30,11 @@ nav {
   position: absolute;
   width: 100%;
 
-
 }
 
 .heading-graident {
-  background: linear-gradient(99.32deg, #b7cea6 14.4%, #ecfbfe 32.69%, #fcfef5 48.66%, #c0d4c9 63.86%);
+  background: linear-gradient(99.32deg, #8ce4ff 14.4%, #e1f5fc 84.4%);
+  /* background: linear-gradient(90.05deg,#41C6EE 90.72% , #ffffff 14.35%); */
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -51,7 +55,10 @@ nav {
 
 .banner {
   padding: 100px 0px;
-  background: radial-gradient(44.37% 82.6% at 12.76% 13.42%, #136165 .82%, #0b3b48 30.02%, #031521);
+  /* background: radial-gradient(44.37% 82.6% at 12.76% 51.42%, #41c6ee8c .82%, #41c6ee36 30.02%, #031521); */
+  background: radial-gradient(203.25% 206.6% at 53.86% 50.69%, #0e4f62 .82%, var(--primary-color) 30.73%, var(--primary-color), #03152100);
+
+  
 }
 
 .banner-heading {
@@ -144,7 +151,7 @@ nav {
 }
 
 .secure_box .icon {
-  background: linear-gradient(180deg, #2589ac, #db9b1e);
+  background: linear-gradient(180deg, #a8e8ff, #41C6EE);
   width: fit-content;
   margin: 0 auto;
   padding: 20px;
@@ -162,7 +169,8 @@ nav {
 }
 
 .about_setps .step_box .icon {
-  background: linear-gradient(161.05deg, #fded5c 14.35%, #8ed3ff 63.35%, #08f 90.72%);
+  background: linear-gradient(180deg, #a8e8ff, #95e6ff);
+
   width: fit-content;
   margin: 0 auto;
   padding: 20px;
@@ -462,23 +470,26 @@ nav {
 }
 
 .two_section_bg {
-  /* padding-top:100px  ; */
-  background: radial-gradient(203.25% 206.6% at 53.86% 100.69%, #136165 .82%, var(--primary-color) 30.73%, var(--primary-color), #03152100);
+  padding-top:100px  ;
+  background: radial-gradient(203.25% 206.6% at 53.86% 100.69%, #0e4f62 .82%, var(--primary-color) 30.73%, var(--primary-color), #03152100);
 
 }
 
 .Allpagebanner {
   padding: 150px 100px 0px;
-  background: radial-gradient(44.37% 82.6% at 12.76% 13.42%, #136165 .82%, #0b3b48 30.02%, #031521);
+  /* background: radial-gradient(44.37% 82.6% at 12.76% 13.42%, #136165 .82%, #0b3b48 30.02%, #031521); */
+  background: radial-gradient(203.25% 206.6% at 53.86% 20.69%, #0e4f62 .82%, var(--primary-color) 30.73%, var(--primary-color), #03152100);
 }
 
 .Aboutdisc {
   background-color: var(--primary-color);
 }
+
 .complexcity {
   background-color: var(--primary-color);
   padding: 100px 0px;
 }
+
 .complexcity .container {
 
   background-image: url(./../public/img/simplicity.webp);
@@ -487,6 +498,7 @@ nav {
   border-radius: 25px;
   padding: 75px 60px 55px;
 }
+
 .counter-box {
   display: block;
   background: #000;
@@ -514,9 +526,11 @@ nav {
 .counter-box {
   background: var(--secandry-color);
 }
-.CounterSection{
+
+.CounterSection {
   background-color: var(--primary-color);
 }
+
 .counter-box.colored * {
   /* color: #000 !important; */
 }
@@ -526,39 +540,68 @@ nav {
   color: #fff;
 }
 
-.experties_about{
+.experties_about {
   padding: 100px 0px;
 }
 
-.expertiex_complesity .bottom_two{
+.expertiex_complesity .bottom_two {
   background-color: #082d40;
   padding: 30px;
   border-radius: 30px;
   margin-top: -50px;
 }
-.expertiex_complesity .mainimg{
+
+.expertiex_complesity .mainimg {
   background-color: red;
   width: fit-content;
   margin: 0px auto;
-  border-radius: 20px ;
+  border-radius: 20px;
   overflow: hidden;
 }
-.core_bg{
+
+.core_bg {
   background-image: url(../public/img/Core_feature_bg.webp);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 800px;
 }
-.coreFeature{
+
+.coreFeature {
   padding: 100px 0px;
- 
+
 
 }
-.core_feature_box{
-  background-color: #082d40fc ;
+
+.core_feature_box {
+  background-color: #082d40fc;
   padding: 15px;
   border-radius: 10px;
 }
+.Blog_box{
+  animation: all 1s ease;
+  background-color:var(--secandry-color);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.Blog_box:hover {
+  animation: all 1s ease;
+  transform: translateY(-10px);
+}
+.Blog_box:hover .b_heading{
+  color: var(--text-color);
+}
+
+.blog_img{
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.date_admin{
+  display: flex;
+  justify-content: space-between;
+}
+
 footer {
   padding: 100px 0px 0px;
 }
