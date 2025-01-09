@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
 import appstorelight from "../../public/img/appstore-light.svg"
 import googleplaylight from "../../public/img/googleplay-light.svg"
 import appsectdion from "../../public/img/appsectdion.png"
 
 
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const DownloadAppHome = () => {
+     useEffect(() => {
+                    AOS.init({ duration: 1200, once: true });
+                }, []);
     return (
         <>
             <section className="downloadapp">
@@ -29,7 +33,7 @@ const DownloadAppHome = () => {
                             </div>
                         </div>
                         <div className="col-lg-8 ">
-                            <div className="appsection_img">
+                            <div className="appsection_img" data-aos="fade-up-left">
                                 <img src={appsectdion} className='img-fluid' alt="" />
                             </div>
                         </div>

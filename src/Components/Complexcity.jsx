@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
 import Button from './Button'
 
 const Complexcity = () => {
+    useEffect(() => {
+        AOS.init({ duration: 1200, once: true });
+      }, []);
     return (
         <>
-            <section className="complexcity">
+            <section className="complexcity" data-aos="fade-up">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">

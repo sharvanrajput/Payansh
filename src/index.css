@@ -29,9 +29,11 @@ nav {
   padding: 20px 0px;
   position: absolute;
   width: 100%;
-
+  z-index: 1000;
 }
-
+section{
+  overflow: hidden;
+}
 .heading-graident {
   background: linear-gradient(99.32deg, #8ce4ff 14.4%, #e1f5fc 84.4%);
   /* background: linear-gradient(90.05deg,#41C6EE 90.72% , #ffffff 14.35%); */
@@ -261,7 +263,7 @@ nav {
 .our-methodology-wrapper::after {
   display: inline-block;
   width: 46px;
-  border-top: 1px dashed #CECECE;
+  border-top: 2px dashed #CECECE;
   content: '';
   position: absolute;
   right: -47px;
@@ -272,14 +274,17 @@ nav {
   display: inline-block;
   width: calc(48% + 10px);
   height: calc(96% + 6px);
-  border-right: 1px dashed #CECECE;
-  border-bottom: 1px dashed #CECECE;
+  border-right: 2px dashed #CECECE;
+  border-bottom: 2px dashed #CECECE;
   content: '';
   position: absolute;
   right: -23px;
   top: calc(50% - 2.4px);
 }
-
+input:focus,textarea:focus{
+  border: none !important;
+  outline: none;
+}
 .benefits {
   background-color: var(--primary-color);
   padding: 100px 0px;
@@ -693,8 +698,8 @@ footer {
     display: inline-block;
     width: calc(11% + 10px);
     height: calc(96% + 6px);
-    border-right: 1px dashed #CECECE;
-    border-bottom: 1px dashed #CECECE;
+    border-right: 2px dashed #CECECE;
+    border-bottom: 2px dashed #CECECE;
     content: '';
     position: absolute;
     right: -23px;
@@ -717,9 +722,9 @@ footer {
     display: inline-block;
     width: calc(60% + 10px);
     height: calc(96% + 6px);
-    border-top: 1px dashed white;
-    border-left: 1px dashed white;
-    border-bottom: 1px dashed white;
+    border-top: 2px dashed white;
+    border-left: 2px dashed white;
+    border-bottom: 2px dashed white;
     border-right: none;
     content: '';
     position: absolute;
@@ -778,7 +783,7 @@ footer {
     width: calc(10% + 10px);
     height: calc(66% + 6px);
     /* border-top: 1px dashed white; */
-    border-left: 1px dashed white;
+    border-left: 2px dashed white;
     /* border-bottom: 1px dashed white; */
     border-right: none;
     content: '';

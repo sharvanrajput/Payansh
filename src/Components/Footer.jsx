@@ -1,7 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from "../../public/img/logo.png"
 
+
+
+
 const Footer = () => {
+    const [subscribe, setSubscribe] = useState("");
+
+    const Subscribeform = (e) => {
+      e.preventDefault();
+    };
+  
+    const newsubscribe = (e) => {
+      setSubscribe(e.target.value);
+     
+    };
+
     return (
         <>
             <div className="two_section_bg">
@@ -11,8 +25,8 @@ const Footer = () => {
                         <div className="d-flex justify-content-center align-items-center text-center flex-column">
                             <h4 className='heading-graident fs-1'>Subscribe Our Newsletter</h4>
                             <p className='text-white'>Get latest news and updates</p>
-                            <form className="d-flex align-items-center justify-content-center">
-                                <input type="email" placeholder="Enter your Email" name="email" autocomplete="true" />
+                            <form className="d-flex align-items-center justify-content-center" onSubmit={Subscribeform}>
+                                <input type="email" placeholder="Enter your Email" name="email" value={subscribe} onChange={newsubscribe} autoComplete="on" />
                                 <button type="submit" className="button_graident">Subscribe</button>
                             </form>
                         </div>

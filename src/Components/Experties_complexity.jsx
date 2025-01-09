@@ -1,24 +1,31 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+ 
 import Experties_complesity from "../../public/img/Experties_complexity.webp"
 import creditcard from "../../public/img/creditcard.webp"
 import Button from './Button'
 
 
 const Experties_complexity = () => {
+    useEffect(() => {
+        AOS.init({ duration: 1200, once: true });
+      }, []);
     return (
         <>
             <section className="expertiex_complesity">
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                            <div className="mainimg">
+                            <div className="mainimg" data-aos="fade-up">
                                 <img src={Experties_complesity} className='img-fluid' alt="" />
                             </div>
                         </div>
                     </div>
                     <div className="row justify-content-center g-4">
                         <div className="col-10 ">
-                            <div className="bottom_two">
+                            <div className="bottom_two" data-aos="fade-up">
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <div className="banner_left text-white">
